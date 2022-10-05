@@ -1,52 +1,98 @@
 /*---------------Background image-----------------*/
-
-#sky {
+#sky-bg {
   background-image: url(cliparts/skybg.jpg);
+  background-size: cover;
+  position: relative;
   width: 1000px;
   height: 640px;
   margin-left: 200px;
-  border-color: black;
-  border-width: 9px;
-  background-size: cover;
 }
-#balloon-left {
-  background-image: url(cliparts/balloon.png);
-  position: absolute;
-  background-size: cover;
-  height: 250px;
-  width: 175px;
-  left: 600px;
-  top: 300px;
-}
-#happy-face {
-  background-image: url(cliparts/happyFace.png);
+/*-------Race Track-------------*/
+#race-track {
+  background-image: url(cliparts/Track.JPG);
+  width: 1000px;
+  height: 300px;
   background-size: cover;
   position: absolute;
-  height: 75px;
-  width: 75px;
-  left: 688px;
-  top: 318px;
+  top: 400px;
 }
-/* .clouds {
-  background-image: url(cliparts/cloud.png);
-  background-size: cover;
-  position: absolute;
-} */
+
+/*------------------clouds------------------------*/
+
 .cloud1 {
-  background-image: url(cliparts/cloud.png);
+  background-image: url(cliparts/cloudss.png);
   background-size: cover;
   position: absolute;
-  height: 150px;
-  width: 290px;
-  left: 300px;
-  top: 100px;
+  height: 120px;
+  width: 250px;
+  left: 150px;
+  top: 150px;
 }
 .cloud2 {
-  background-image: url(cliparts/cloud.png);
+  background-image: url(cliparts/cloudss.png);
   background-size: cover;
   position: absolute;
-  height: 130px;
-  width: 270px;
+  height: 120px;
+  width: 250px;
   left: 500px;
-  top: 100px;
+  top: 40px;
 }
+.cloud3 {
+  background-image: url(cliparts/cloudss.png);
+  background-size: cover;
+  position: absolute;
+  height: 110px;
+  width: 240px;
+  left: 600px;
+  top: 160px;
+}
+/* -----------trees---------- */
+#tree1 {
+  background-image: url(cliparts/tree.png);
+  background-size: cover;
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  left: 850px;
+  top: 300px;
+}
+
+#tree2 {
+  background-image: url(cliparts/tree.png);
+  background-size: cover;
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  left: 450px;
+  top: 350px;
+}
+/* ------------Bushes-------------- */
+#bush1 {
+  background-image: url(cliparts/bushes.png);
+  background-size: cover;
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  left: 200px;
+  top: 400px;
+}
+#bush2 {
+  background-image: url(cliparts/bushes.png);
+  background-size: cover;
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  left: 650px;
+  top: 400px;
+}
+/* ------------Carrot----------------------- */
+#carrot {
+  background-image: url(cliparts/carrot.png);
+  background-size: cover;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 500px;
+  top: 465px;
+}
+/* --------------Rabbit--------------------------- */
