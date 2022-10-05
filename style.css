@@ -5,7 +5,7 @@
   position: relative;
   width: 1000px;
   height: 640px;
-  margin-left: 200px;
+  margin-left: 150px;
 }
 /*-------Race Track-------------*/
 #race-track {
@@ -19,16 +19,16 @@
 
 /*------------------clouds------------------------*/
 
-.cloud1 {
+#cloud1 {
   background-image: url(cliparts/cloudss.png);
   background-size: cover;
   position: absolute;
   height: 120px;
   width: 250px;
-  left: 150px;
+  left: 20px;
   top: 150px;
 }
-.cloud2 {
+#cloud2 {
   background-image: url(cliparts/cloudss.png);
   background-size: cover;
   position: absolute;
@@ -37,7 +37,7 @@
   left: 500px;
   top: 40px;
 }
-.cloud3 {
+#cloud3 {
   background-image: url(cliparts/cloudss.png);
   background-size: cover;
   position: absolute;
@@ -117,12 +117,13 @@
 }
 /* ----------------button--------------------- */
 button {
-  height: 40px;
-  width: 50px;
-  background-color: rgba(140, 224, 79, 0.886);
-  margin-left: 100px;
-  margin-right: 0;
-  margin-top: 400px;
+  height: 60px;
+  width: 80px;
+  background-color: rgba(211, 90, 14, 0.546);
+  margin-left: 150px;
+  border-radius: 20px;
+  margin-top: 500px;
+  font-size: 30px;
 }
 /* -----------------flex-box----------------- */
 #flex-box {
