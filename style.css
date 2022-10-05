@@ -90,9 +90,18 @@
   background-image: url(cliparts/carrot.png);
   background-size: cover;
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   left: 500px;
-  top: 465px;
+  top: 470px;
 }
 /* --------------Rabbit--------------------------- */
+#rabbit {
+  background-image: url(cliparts/Rabbit.png);
+  background-size: cover;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 50px;
+  top: 450px;
+}
