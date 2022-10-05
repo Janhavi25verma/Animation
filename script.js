@@ -34,8 +34,6 @@ function rabbit() {
     rabbit.style.left = start + "px";
   }, 100);
 }
-// tortoise();
-// rabbit();
 // -------------------Clouds---------------------------
 function cloud1() {
   let cloud1 = document.querySelector("#cloud1");
