@@ -9,6 +9,14 @@ function tortoise() {
     if (start >= win) {
       clearInterval(getsetgo);
     }
+    if (start > 550 && start < 570) {
+      let audio = new Audio("audio/2000years.mp3");
+      audio.play();
+    }
+    if (start > 880 && start < 890) {
+      let audio = new Audio("audio/yayy.mp3");
+      audio.play();
+    }
     tortoise.style.left = start + "px";
   }, 100);
 }
@@ -39,8 +47,9 @@ function cloud1() {
     if (start >= end) {
       start = 0;
     }
+
     cloud1.style.left = start + "px";
-  }, 90);
+  }, 120);
 }
 function cloud2() {
   let cloud2 = document.querySelector("#cloud2");
@@ -53,7 +62,7 @@ function cloud2() {
       start = 0;
     }
     cloud2.style.left = start + "px";
-  }, 90);
+  }, 120);
 }
 function cloud3() {
   let cloud3 = document.querySelector("#cloud3");
@@ -66,7 +75,7 @@ function cloud3() {
       start = 0;
     }
     cloud3.style.left = start + "px";
-  }, 90);
+  }, 120);
 }
 cloud1();
 cloud2();
