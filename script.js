@@ -13,7 +13,7 @@ function tortoise() {
       let audio = new Audio("audio/2000years.mp3");
       audio.play();
     }
-    if (start > 880 && start < 890) {
+    if (start > 880 && start < 882) {
       let audio = new Audio("audio/yayy.mp3");
       audio.play();
     }
